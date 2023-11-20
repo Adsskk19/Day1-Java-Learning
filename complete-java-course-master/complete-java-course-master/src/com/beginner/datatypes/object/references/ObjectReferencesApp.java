@@ -27,6 +27,7 @@ public class ObjectReferencesApp {
         System.out.println("Car model: " + carType);
         System.out.println("Car model with uppercase: " + carType.toUpperCase());
         System.out.println("Car model with lowercase: " + carType.toLowerCase());
+        System.out.println("Car model with Blank: " + carType.isBlank());
         System.out.println("Car model with new keyword: " + carTypeWithNewKeyword);
         System.out.println("carType variable equals to carTypeWithNewKeyword: " + carTypeWithNewKeyword.equals(carType));
 
