@@ -1,6 +1,9 @@
 package com.beginner.loops;
 
 public class LoopsApp {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         int i = 1;
         while (i <= 0){

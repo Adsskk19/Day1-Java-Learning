@@ -19,7 +19,7 @@ public class IMDBApp {
         System.out.println("Actor's name: " + actorName);
         System.out.println("Born: " + yearOfBorn + " (" + age + " years old)");
 
-        System.out.println("Movies:");
+        System.out.println("Movies:"); 
 
         for (int i = 0; i < movieTitles.length; i++) {
             System.out.println(movieTitles[i] + " - " + getRating(movieRatings[i]));
